@@ -12,6 +12,7 @@ class Base:
         self.container = container
 
         with container.expander('Default activity', expanded=True):
+            st.warning('`one cycle= !fight+!steal+!taunt+#taunt answer')
             self.activity = userInput_number('Cycles per day', 0, math.floor(
                 self.fst_cap), math.floor(self.fst_cap), 1, 'numCycles_default', retInt=True)
 

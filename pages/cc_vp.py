@@ -1,5 +1,5 @@
 import streamlit as st
-from pages.base import Base
+from base import Base
 from biotron_upgrade import Biotron
 from electrox_upgrade import Electrox
 from polyzer_upgrade import Polyzer

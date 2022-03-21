@@ -16,6 +16,7 @@ def app():
         wl_price = st.number_input(
             'Whitelist price', min_value=1, max_value=30000, value=10500, step=500, key='wl_price')
 
+
 # ~ UPGRADE PRICES
     with st.sidebar:
         with st.expander('Upgrade prices', expanded=False):
@@ -27,7 +28,6 @@ def app():
                 'Polyzer', 1500, 4500, 3000, 100, key='poly_cost')
             neuro_cost = st.number_input(
                 'Neuronic', 3000, 6000, 4500, 100, key='neuro_cost')
-
         activity_container = st.sidebar.container()
 
 # ! NO UPGRADE

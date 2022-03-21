@@ -12,9 +12,10 @@ class Base:
         self.container = container
 
         with container.expander('Default activity', expanded=True):
-            st.write('`one cycle=!fight+!steal+!taunt+#taunt answer`')
+
             self.activity = userInput_number('Cycles per day', 0, math.floor(
                 self.fst_cap), math.floor(self.fst_cap), 1, 'numCycles_default', retInt=True)
+            st.write('`= !fight + !steal + !taunt + #taunt`')
 
             self.activity_days = userInput_number(
                 'Number of days', 1, 50, 2, 1, 'activity_days_default', retInt=True)

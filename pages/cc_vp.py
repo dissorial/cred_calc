@@ -4,7 +4,7 @@ from biotron_upgrade import Biotron
 from electrox_upgrade import Electrox
 from polyzer_upgrade import Polyzer
 from neuronic_upgrade import Neuronic
-from utils import days_to_whitelist, days_to_next, get_barh_chart
+from helper_funcs import days_to_whitelist, days_to_next, get_barh_chart
 import pandas as pd
 
 

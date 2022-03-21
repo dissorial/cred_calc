@@ -1,6 +1,7 @@
 import streamlit as st
 import math
-from utils import userInput_number, one_cycle_vp, daily_gain, gain_over_time, one_cycle_cc
+#from utils import userInput_number, one_cycle_vp, daily_gain, gain_over_time, one_cycle_cc
+from utils import *
 
 
 class Polyzer:

@@ -1,6 +1,5 @@
 import streamlit as st
-import gpu
-import cc_vp
+from pages import gpu, cc_vp
 
 
 st.set_page_config(layout="wide")

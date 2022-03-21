@@ -1,12 +1,10 @@
 import streamlit as st
-import math
-from base import Base
+from pages.base import Base
 from biotron_upgrade import Biotron
 from electrox_upgrade import Electrox
 from polyzer_upgrade import Polyzer
 from neuronic_upgrade import Neuronic
 from utils import days_to_whitelist, days_to_next, get_barh_chart
-import altair as alt
 import pandas as pd
 
 
